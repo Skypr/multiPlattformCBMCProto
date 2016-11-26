@@ -32,6 +32,7 @@ int main ( int argc , char *argv[]) {
 	//check the result: every field now needs to have at least the number
 	//LENGTH or a higher one in it
 	for (unsigned int i = 0; i < LENGTH; i++) {
+		//if you want it to succeed, then change the ">" to ">="
 		assert(a[i] > LENGTH) ;
 	}
 	return 0;

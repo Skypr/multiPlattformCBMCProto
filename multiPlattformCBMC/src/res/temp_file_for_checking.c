@@ -5,7 +5,7 @@ int nondet_uint();
 #include <stdint.h>
 #include <assert.h>
 #ifndef LENGTH
-#define LENGTH 15
+#define LENGTH 5
 #define assert2(x, y) __CPROVER_assert(x, y)
 #define assume(x) __CPROVER_assume(x)
 #endif
